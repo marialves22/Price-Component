@@ -1,0 +1,24 @@
+.superior {
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    border-radius: 0.3125rem;
+    background-color: #FFF;
+}
+
+.superior p:first-child {
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--Bright-yellow);
+    margin-bottom: 1rem;
+}
+
+.superior p:last-child {
+    line-height: 1.625rem;
+    color: var(--Gravish-blue);
+    font-size: 0.875rem;
+}
+
+.esquerda {
+    background-color: var(--Cyan);
+    padding: 1.rem;
+}
