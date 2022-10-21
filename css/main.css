@@ -1,24 +1,76 @@
 .superior {
     padding-inline: 1.5rem;
     padding-block: 2rem;
-    border-radius: 0.3125rem;
+    border-top-left-radius: 0.3125rem;
+    border-top-right-radius: 0.3125rem; 
     background-color: #FFF;
 }
 
-.superior p:first-child {
+.superior .first {
     font-weight: 700;
     line-height: 1.25rem;
-    color: var(--Bright-yellow);
+    color: var(--bright-yellow);
     margin-bottom: 1rem;
 }
 
-.superior p:last-child {
+.superior .second {
     line-height: 1.625rem;
-    color: var(--Gravish-blue);
+    color: var(--grayish-blue);
     font-size: 0.875rem;
 }
 
 .esquerda {
-    background-color: var(--Cyan);
-    padding: 1.rem;
+    background-color: var(--cyan);
+    padding: 1.5rem;
+}
+
+.esquerda p {
+    color: #FFF;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda .first {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.esquerda .second {
+    color: #FFF;
+    opacity: 0.5rem;
+}
+
+.esquerda #div_esquerda {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.esquerda button {
+    padding-block: 1rem;
+    width: 100%;
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: 0px;
+    background-color: var(--bright-yellow);
+    border-radius: 0.3125rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+
+.direita {
+    background-color: var(--light-cyan);
+    padding: 1.5rem;
+    border-bottom-left-radius: 0.3125rem;
+    border-bottom-right-radius: 0.3125rem;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: #FFF;
+    opacity: 0.75rem;
 }
