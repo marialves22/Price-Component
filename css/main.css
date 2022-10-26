@@ -24,7 +24,8 @@
     padding: 1.5rem;
 }
 
-.esquerda p {
+.esquerda > p {
+    /* >: selecionar p que é filho direto da seção esquerda. */
     color: #FFF;
     line-height: 1.625rem;
     margin-bottom: 1.625rem;
@@ -39,7 +40,7 @@
 
 .esquerda .second {
     color: #FFF;
-    opacity: 0.5rem;
+    opacity: 0.5;
 }
 
 .esquerda #div_esquerda {
@@ -72,5 +73,5 @@
     line-height: 1.25rem;
     font-size: 0.875rem;
     color: #FFF;
-    opacity: 0.75rem;
+    opacity: 0.75;
 }
